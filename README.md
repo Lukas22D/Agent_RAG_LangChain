@@ -1,13 +1,14 @@
-# README.md
+# Agente desenvolvimento Langchain+Python RAG
 
 Este repositório contém um agente conversacional baseado em langchain que utiliza o modelo de linguagem cohere para responder a perguntas sobre análise, criação e correção de código python, com foco em conceitos relacionados a langchain, bibliotecas e frameworks.
 
-## estrutura do projeto
-- src
-  - ├── app.py # interface streamlit para interação com o agente
-  - └── cohereagent.py # implementação do agente conversacional com langchain
-
-## funcionalidades
+## Estrutura do projeto
+```
+ src
+   ├── app.py # interface streamlit para interação com o agente
+   └── cohereagent.py # implementação do agente conversacional com langchain
+```
+## Funcionalidades
 
 - **análise de código**: analisa trechos de código python, identificando erros, problemas de desempenho e áreas para melhoria.
 - **criação de código**: gera código python de alta qualidade a partir de descrições ou requisitos, seguindo as melhores práticas.
@@ -15,14 +16,14 @@ Este repositório contém um agente conversacional baseado em langchain que util
 - **suporte a langchain**: oferece assistência especializada em tópicos relacionados a langchain, como agentes, cadeias e ferramentas.
 - **contexto conversacional**: mantém o contexto da conversa para entender e responder a perguntas de forma mais precisa e relevante.
 
-## tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **langchain**: framework para desenvolvimento de aplicações com modelos de linguagem.
 - **cohere**: modelo de linguagem para processamento de linguagem natural e geração de texto.
 - **chroma**: base de dados vetorial para armazenamento e recuperação de informações.
 - **streamlit**: biblioteca para criar interfaces web interativas.
 
-## como executar
+## Como executar
 ### Clone o Repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
