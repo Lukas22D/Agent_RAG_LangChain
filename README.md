@@ -1,11 +1,11 @@
 # README.md
 
-este repositório contém um agente conversacional baseado em langchain que utiliza o modelo de linguagem cohere para responder a perguntas sobre análise, criação e correção de código python, com foco em conceitos relacionados a langchain, bibliotecas e frameworks.
+Este repositório contém um agente conversacional baseado em langchain que utiliza o modelo de linguagem cohere para responder a perguntas sobre análise, criação e correção de código python, com foco em conceitos relacionados a langchain, bibliotecas e frameworks.
 
 ## estrutura do projeto
-src
-├── app.py # interface streamlit para interação com o agente
-└── cohereagent.py # implementação do agente conversacional com langchain
+-src
+-├── app.py # interface streamlit para interação com o agente
+-└── cohereagent.py # implementação do agente conversacional com langchain
 
 ## funcionalidades
 
