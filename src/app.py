@@ -1,12 +1,15 @@
 import streamlit as st 
-import src.CohereAgent as CohereAgent
+import CohereAgent as CohereAgent
 from streamlit_chat import message
 
 
 def main():
+
     
     st.set_page_config(page_title = 'Agente LangChain', page_icon = ':books:')
     session_container = st.container()
+    chat_history = st.container()
+
     if('session_id' in st.session_state):
      st.header('Agente LangChain')
      user_question = st.text_input('Digite sua pergunta aqui')
